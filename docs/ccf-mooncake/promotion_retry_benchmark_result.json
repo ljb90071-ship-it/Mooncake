@@ -1,0 +1,12 @@
+{
+  "base_commit": "a325291c6baccc872ce137bd0c58d5791ac4e8c4",
+  "branch": "ljb/ccf-store-promotion-retry",
+  "os": "Ubuntu 26.04 LTS on WSL2",
+  "kernel": "Linux MYLOAD 6.6.114.1-microsoft-standard-WSL2",
+  "benchmark": "promotion_retry_benchmark_test",
+  "workload": "two_hot_local_disk_only_keys",
+  "queue_limit": 1,
+  "retry_visible": true,
+  "fallback_reads_needed": 0,
+  "retry_poll_ms": 161
+}
